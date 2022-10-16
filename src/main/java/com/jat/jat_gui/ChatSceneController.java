@@ -32,6 +32,7 @@ public class ChatSceneController {
         this.client = new Client(hostName, portNumber, this);
         Thread t = new Thread(this.client);
         t.start();
+        sendBtn.setOnAction((event) -> handleSendBtn());
     }
 
     @FXML

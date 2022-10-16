@@ -4,32 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e751fd43-9c16-4dea-84a8-b6d26d075a33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jat/jat_gui/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jat/jat_gui/ChatSceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jat/jat_gui/EnterSceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jat/jat_gui/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jat/jat_gui/ScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/syncChat/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/syncChat/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ColorPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jat/jat_gui/ChatScene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jat/jat_gui/EnterScene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jat/jat_gui/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jat/jat_gui/send.png" afterDir="false" />
+    <list default="true" id="e751fd43-9c16-4dea-84a8-b6d26d075a33" name="Changes" comment="Added basic javaFX GUI">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "D:/devStuff/Hacktober/JaT_GUI/src/main/java/com/jat/jat_gui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/devStuff/Hacktober/JaT_GUI/src/main/java/com/jat/jat_gui&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,6 +51,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665486187971</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added basic javaFX GUI">
+      <created>1665519390915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665519390915</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,5 +74,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added basic javaFX GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic javaFX GUI" />
   </component>
 </project>
