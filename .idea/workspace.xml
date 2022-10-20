@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e751fd43-9c16-4dea-84a8-b6d26d075a33" name="Changes" comment="Added basic javaFX GUI">
+    <list default="true" id="e751fd43-9c16-4dea-84a8-b6d26d075a33" name="Changes" comment="Working send message button">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ScenePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jat/jat_gui/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jat/jat_gui/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jat/jat_gui/ChatSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jat/jat_gui/ChatSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jat/jat_gui/EnterSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jat/jat_gui/EnterSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/syncChat/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/syncChat/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665519390915</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Working send message button">
+      <created>1665902974256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665902974256</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +87,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added basic javaFX GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basic javaFX GUI" />
+    <MESSAGE value="Working send message button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working send message button" />
   </component>
 </project>

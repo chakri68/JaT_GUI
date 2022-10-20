@@ -1,13 +1,14 @@
 package com.jat.jat_gui;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.ListCell;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import syncChat.Client;
 
+import java.io.IOException;
+import java.util.Optional;
+
 public class ChatSceneController {
+    App app;
     String hostName;
     int portNumber;
     Client client;
@@ -21,7 +22,8 @@ public class ChatSceneController {
     public ChatSceneController() {
     }
 
-    public ChatSceneController(String hostName, int portNumber) {
+    public ChatSceneController(String hostName, int portNumber, App app) {
+        this.app = app;
         this.hostName = hostName;
         this.portNumber = portNumber;
     }
@@ -47,5 +49,21 @@ public class ChatSceneController {
 
     public void shutdown() {
         this.client.exit();
+    }
+
+    public Optional<ButtonType> showError(String title, String message) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setTitle(title);
+        alert.setHeaderText(message);
+        return alert.showAndWait();
+    }
+
+    public void goToScene(String sceneName) {
+        try {
+            this.app.changeSceneTo(sceneName);
+        } catch (IOException e) {
+            showError("Error", "Something bad happened");
+            e.printStackTrace();
+        }
     }
 }
